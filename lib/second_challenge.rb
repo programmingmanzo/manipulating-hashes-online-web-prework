@@ -1,4 +1,4 @@
-
+#require 'pry'
 
 
 def second_challenge
@@ -19,4 +19,6 @@ def second_challenge
   all_items
 end
 
+#binding.pry 
+#puts "hello"
 
