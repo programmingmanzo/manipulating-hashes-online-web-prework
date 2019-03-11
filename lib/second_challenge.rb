@@ -1,3 +1,6 @@
+
+require 'pry'
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -7,7 +10,12 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  all_items = []
+  groceries.each do |category, items|
+    all_items << category.values   
+  end
+  all_items
 end
+
+binding.pry
+puts "hello"
