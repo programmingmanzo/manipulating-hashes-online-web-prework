@@ -11,7 +11,9 @@ def second_challenge
 
   #code your solution here!
   all_items = []
-  groceries.each do |category, items|
+  groceries.each do |category, items |
+    items.each do 
+    
     all_items << .values   
   end
   all_items
