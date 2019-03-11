@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 
 def first_challenge
   contacts = {
@@ -21,6 +21,6 @@ def first_challenge
   #remember to return your newly altered contacts hash!
   contacts
 end
-binding.pry 
+#binding.pry 
 #first_challenge
-puts "hello"
+#puts "hello"
