@@ -1,5 +1,5 @@
 
-require 'pry'
+#equire 'pry'
 
 def second_challenge
   groceries = {
@@ -19,5 +19,5 @@ def second_challenge
   all_items
 end
 
-binding.pry
-puts "hello"
+#binding.pry
+#puts "hello"
