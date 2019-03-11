@@ -12,7 +12,7 @@ def second_challenge
   #code your solution here!
   all_items = []
   groceries.each do |category, items|
-    all_items << category.values   
+    all_items << .values   
   end
   all_items
 end
